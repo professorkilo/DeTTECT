@@ -7216,6 +7216,7 @@
       "software_name": "Qilin",
       "platforms": [
         "ESXi",
+        "Linux",
         "Windows"
       ],
       "autosuggest": "S1242 - Qilin"
@@ -7285,6 +7286,316 @@
         "macOS"
       ],
       "autosuggest": "S1249 - HexEval Loader"
+    },
+    {
+      "software_id": "S9001",
+      "software_name": "SystemBC",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "autosuggest": "S9001 - SystemBC"
+    },
+    {
+      "software_id": "S9002",
+      "software_name": "Diskpart",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9002 - Diskpart"
+    },
+    {
+      "software_id": "S9003",
+      "software_name": "evilginx2",
+      "platforms": [
+        "IaaS",
+        "Identity Provider",
+        "Office Suite",
+        "SaaS"
+      ],
+      "autosuggest": "S9003 - evilginx2"
+    },
+    {
+      "software_id": "S9007",
+      "software_name": "HTTPTroy",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9007 - HTTPTroy"
+    },
+    {
+      "software_id": "S9008",
+      "software_name": "Shai-Hulud",
+      "platforms": [
+        "Linux",
+        "SaaS",
+        "Windows"
+      ],
+      "autosuggest": "S9008 - Shai-Hulud"
+    },
+    {
+      "software_id": "S9009",
+      "software_name": "TruffleHog",
+      "platforms": [
+        "IaaS",
+        "Linux",
+        "SaaS",
+        "Windows"
+      ],
+      "autosuggest": "S9009 - TruffleHog"
+    },
+    {
+      "software_id": "S9010",
+      "software_name": "GlassWorm",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "S9010 - GlassWorm"
+    },
+    {
+      "software_id": "S9011",
+      "software_name": "BRUSHFIRE",
+      "platforms": [
+        "Linux",
+        "Network Devices"
+      ],
+      "autosuggest": "S9011 - BRUSHFIRE"
+    },
+    {
+      "software_id": "S9012",
+      "software_name": "TRAILBLAZE",
+      "platforms": [
+        "Linux",
+        "Network Devices"
+      ],
+      "autosuggest": "S9012 - TRAILBLAZE"
+    },
+    {
+      "software_id": "S9013",
+      "software_name": "DRYHOOK",
+      "platforms": [
+        "Linux",
+        "Network Devices"
+      ],
+      "autosuggest": "S9013 - DRYHOOK"
+    },
+    {
+      "software_id": "S9014",
+      "software_name": "PHASEJAM",
+      "platforms": [
+        "Linux",
+        "Network Devices"
+      ],
+      "autosuggest": "S9014 - PHASEJAM"
+    },
+    {
+      "software_id": "S9015",
+      "software_name": "BRICKSTORM",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "Network Devices",
+        "Windows"
+      ],
+      "autosuggest": "S9015 - BRICKSTORM"
+    },
+    {
+      "software_id": "S9016",
+      "software_name": "Caminho",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9016 - Caminho"
+    },
+    {
+      "software_id": "S9017",
+      "software_name": "DCRAT",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9017 - DCRAT"
+    },
+    {
+      "software_id": "S9018",
+      "software_name": "HeartCrypt",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "autosuggest": "S9018 - HeartCrypt"
+    },
+    {
+      "software_id": "S9019",
+      "software_name": "PureCrypter",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9019 - PureCrypter"
+    },
+    {
+      "software_id": "S9020",
+      "software_name": "LODEINFO",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9020 - LODEINFO"
+    },
+    {
+      "software_id": "S9021",
+      "software_name": "DOWNIISSA",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9021 - DOWNIISSA"
+    },
+    {
+      "software_id": "S9022",
+      "software_name": "MirrorStealer",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9022 - MirrorStealer"
+    },
+    {
+      "software_id": "S9023",
+      "software_name": "HiddenFace",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9023 - HiddenFace"
+    },
+    {
+      "software_id": "S9024",
+      "software_name": "SPAWNCHIMERA",
+      "platforms": [
+        "Linux",
+        "Network Devices"
+      ],
+      "autosuggest": "S9024 - SPAWNCHIMERA"
+    },
+    {
+      "software_id": "S9025",
+      "software_name": "NOOPLDR",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9025 - NOOPLDR"
+    },
+    {
+      "software_id": "S9026",
+      "software_name": "ROAMINGHOUSE",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9026 - ROAMINGHOUSE"
+    },
+    {
+      "software_id": "S9027",
+      "software_name": "ANELLDR",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9027 - ANELLDR"
+    },
+    {
+      "software_id": "S9028",
+      "software_name": "PHPsert",
+      "platforms": [
+        "Network Devices"
+      ],
+      "autosuggest": "S9028 - PHPsert"
+    },
+    {
+      "software_id": "S9029",
+      "software_name": "IronWind",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9029 - IronWind"
+    },
+    {
+      "software_id": "S9030",
+      "software_name": "SameCoin",
+      "platforms": [
+        "Android",
+        "Windows"
+      ],
+      "autosuggest": "S9030 - SameCoin"
+    },
+    {
+      "software_id": "S9031",
+      "software_name": "AshTag",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9031 - AshTag"
+    },
+    {
+      "software_id": "S9032",
+      "software_name": "MuddyViper",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9032 - MuddyViper"
+    },
+    {
+      "software_id": "S9033",
+      "software_name": "Fooder",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9033 - Fooder"
+    },
+    {
+      "software_id": "S9034",
+      "software_name": "Tsundere Botnet",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "S9034 - Tsundere Botnet"
+    },
+    {
+      "software_id": "S9035",
+      "software_name": "LAMEHUG",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9035 - LAMEHUG"
+    },
+    {
+      "software_id": "S9036",
+      "software_name": "LP-Notes",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9036 - LP-Notes"
+    },
+    {
+      "software_id": "S9037",
+      "software_name": "RustyWater",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9037 - RustyWater"
+    },
+    {
+      "software_id": "S9038",
+      "software_name": "DynoWiper",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9038 - DynoWiper"
+    },
+    {
+      "software_id": "S9039",
+      "software_name": "LazyWiper",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "S9039 - LazyWiper"
     }
   ],
   "ATT&CK-ICS": [
@@ -9228,6 +9539,39 @@
         "iOS"
       ],
       "autosuggest": "S1244 - Medusa Ransomware"
+    },
+    {
+      "software_id": "S9004",
+      "software_name": "Crocodilus",
+      "platforms": [
+        "Android"
+      ],
+      "autosuggest": "S9004 - Crocodilus"
+    },
+    {
+      "software_id": "S9005",
+      "software_name": "DocSwap",
+      "platforms": [
+        "Android"
+      ],
+      "autosuggest": "S9005 - DocSwap"
+    },
+    {
+      "software_id": "S9006",
+      "software_name": "VajraSpy",
+      "platforms": [
+        "Android"
+      ],
+      "autosuggest": "S9006 - VajraSpy"
+    },
+    {
+      "software_id": "S9030",
+      "software_name": "SameCoin",
+      "platforms": [
+        "Android",
+        "Windows"
+      ],
+      "autosuggest": "S9030 - SameCoin"
     }
   ]
 }

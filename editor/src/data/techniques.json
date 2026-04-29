@@ -546,6 +546,16 @@
       "autosuggest": "T1027.017 - SVG Smuggling"
     },
     {
+      "technique_id": "T1027.018",
+      "technique_name": "Invisible Unicode",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1027.018 - Invisible Unicode"
+    },
+    {
       "technique_id": "T1029",
       "technique_name": "Scheduled Transfer",
       "platforms": [
@@ -907,6 +917,7 @@
         "Containers",
         "ESXi",
         "Linux",
+        "Network Devices",
         "Windows",
         "macOS"
       ],
@@ -1130,12 +1141,14 @@
       "technique_id": "T1059",
       "technique_name": "Command and Scripting Interpreter",
       "platforms": [
+        "Containers",
         "ESXi",
         "IaaS",
         "Identity Provider",
         "Linux",
         "Network Devices",
         "Office Suite",
+        "SaaS",
         "Windows",
         "macOS"
       ],
@@ -1331,23 +1344,6 @@
         "macOS"
       ],
       "autosuggest": "T1070 - Indicator Removal"
-    },
-    {
-      "technique_id": "T1070.001",
-      "technique_name": "Clear Windows Event Logs",
-      "platforms": [
-        "Windows"
-      ],
-      "autosuggest": "T1070.001 - Clear Windows Event Logs"
-    },
-    {
-      "technique_id": "T1070.002",
-      "technique_name": "Clear Linux or Mac System Logs",
-      "platforms": [
-        "Linux",
-        "macOS"
-      ],
-      "autosuggest": "T1070.002 - Clear Linux or Mac System Logs"
     },
     {
       "technique_id": "T1070.003",
@@ -2739,7 +2735,7 @@
     },
     {
       "technique_id": "T1211",
-      "technique_name": "Exploitation for Defense Evasion",
+      "technique_name": "Exploitation for Stealth",
       "platforms": [
         "IaaS",
         "Linux",
@@ -2747,7 +2743,7 @@
         "Windows",
         "macOS"
       ],
-      "autosuggest": "T1211 - Exploitation for Defense Evasion"
+      "autosuggest": "T1211 - Exploitation for Stealth"
     },
     {
       "technique_id": "T1212",
@@ -3054,20 +3050,20 @@
     },
     {
       "technique_id": "T1222.001",
-      "technique_name": "Windows File and Directory Permissions Modification",
+      "technique_name": "Windows Permissions",
       "platforms": [
         "Windows"
       ],
-      "autosuggest": "T1222.001 - Windows File and Directory Permissions Modification"
+      "autosuggest": "T1222.001 - Windows Permissions"
     },
     {
       "technique_id": "T1222.002",
-      "technique_name": "Linux and Mac File and Directory Permissions Modification",
+      "technique_name": "Linux and Mac Permissions",
       "platforms": [
         "Linux",
         "macOS"
       ],
-      "autosuggest": "T1222.002 - Linux and Mac File and Directory Permissions Modification"
+      "autosuggest": "T1222.002 - Linux and Mac Permissions"
     },
     {
       "technique_id": "T1480",
@@ -4488,11 +4484,11 @@
     },
     {
       "technique_id": "T1557.001",
-      "technique_name": "LLMNR/NBT-NS Poisoning and SMB Relay",
+      "technique_name": "Name Resolution Poisoning and SMB Relay",
       "platforms": [
         "Windows"
       ],
-      "autosuggest": "T1557.001 - LLMNR/NBT-NS Poisoning and SMB Relay"
+      "autosuggest": "T1557.001 - Name Resolution Poisoning and SMB Relay"
     },
     {
       "technique_id": "T1557.002",
@@ -4679,141 +4675,6 @@
         "macOS"
       ],
       "autosuggest": "T1561.002 - Disk Structure Wipe"
-    },
-    {
-      "technique_id": "T1562",
-      "technique_name": "Impair Defenses",
-      "platforms": [
-        "Containers",
-        "ESXi",
-        "IaaS",
-        "Identity Provider",
-        "Linux",
-        "Network Devices",
-        "Office Suite",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1562 - Impair Defenses"
-    },
-    {
-      "technique_id": "T1562.001",
-      "technique_name": "Disable or Modify Tools",
-      "platforms": [
-        "Containers",
-        "IaaS",
-        "Linux",
-        "Network Devices",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1562.001 - Disable or Modify Tools"
-    },
-    {
-      "technique_id": "T1562.002",
-      "technique_name": "Disable Windows Event Logging",
-      "platforms": [
-        "Windows"
-      ],
-      "autosuggest": "T1562.002 - Disable Windows Event Logging"
-    },
-    {
-      "technique_id": "T1562.003",
-      "technique_name": "Impair Command History Logging",
-      "platforms": [
-        "ESXi",
-        "Linux",
-        "Network Devices",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1562.003 - Impair Command History Logging"
-    },
-    {
-      "technique_id": "T1562.004",
-      "technique_name": "Disable or Modify System Firewall",
-      "platforms": [
-        "ESXi",
-        "Linux",
-        "Network Devices",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1562.004 - Disable or Modify System Firewall"
-    },
-    {
-      "technique_id": "T1562.006",
-      "technique_name": "Indicator Blocking",
-      "platforms": [
-        "ESXi",
-        "Linux",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1562.006 - Indicator Blocking"
-    },
-    {
-      "technique_id": "T1562.007",
-      "technique_name": "Disable or Modify Cloud Firewall",
-      "platforms": [
-        "IaaS"
-      ],
-      "autosuggest": "T1562.007 - Disable or Modify Cloud Firewall"
-    },
-    {
-      "technique_id": "T1562.008",
-      "technique_name": "Disable or Modify Cloud Logs",
-      "platforms": [
-        "IaaS",
-        "Identity Provider",
-        "Office Suite",
-        "SaaS"
-      ],
-      "autosuggest": "T1562.008 - Disable or Modify Cloud Logs"
-    },
-    {
-      "technique_id": "T1562.009",
-      "technique_name": "Safe Mode Boot",
-      "platforms": [
-        "Windows"
-      ],
-      "autosuggest": "T1562.009 - Safe Mode Boot"
-    },
-    {
-      "technique_id": "T1562.010",
-      "technique_name": "Downgrade Attack",
-      "platforms": [
-        "Linux",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1562.010 - Downgrade Attack"
-    },
-    {
-      "technique_id": "T1562.011",
-      "technique_name": "Spoof Security Alerting",
-      "platforms": [
-        "Linux",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1562.011 - Spoof Security Alerting"
-    },
-    {
-      "technique_id": "T1562.012",
-      "technique_name": "Disable or Modify Linux Audit System",
-      "platforms": [
-        "Linux"
-      ],
-      "autosuggest": "T1562.012 - Disable or Modify Linux Audit System"
-    },
-    {
-      "technique_id": "T1562.013",
-      "technique_name": "Disable or Modify Network Device Firewall",
-      "platforms": [
-        "Network Devices"
-      ],
-      "autosuggest": "T1562.013 - Disable or Modify Network Device Firewall"
     },
     {
       "technique_id": "T1563",
@@ -6494,18 +6355,6 @@
       "autosuggest": "T1654 - Log Enumeration"
     },
     {
-      "technique_id": "T1656",
-      "technique_name": "Impersonation",
-      "platforms": [
-        "Linux",
-        "Office Suite",
-        "SaaS",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1656 - Impersonation"
-    },
-    {
       "technique_id": "T1657",
       "technique_name": "Financial Theft",
       "platforms": [
@@ -6589,17 +6438,6 @@
       "autosuggest": "T1671 - Cloud Application Integration"
     },
     {
-      "technique_id": "T1672",
-      "technique_name": "Email Spoofing",
-      "platforms": [
-        "Linux",
-        "Office Suite",
-        "Windows",
-        "macOS"
-      ],
-      "autosuggest": "T1672 - Email Spoofing"
-    },
-    {
       "technique_id": "T1673",
       "technique_name": "Virtual Machine Discovery",
       "platforms": [
@@ -6673,6 +6511,219 @@
         "PRE"
       ],
       "autosuggest": "T1681 - Search Threat Vendor Data"
+    },
+    {
+      "technique_id": "T1682",
+      "technique_name": "Query Public AI Services",
+      "platforms": [
+        "PRE"
+      ],
+      "autosuggest": "T1682 - Query Public AI Services"
+    },
+    {
+      "technique_id": "T1683",
+      "technique_name": "Generate Content",
+      "platforms": [
+        "PRE"
+      ],
+      "autosuggest": "T1683 - Generate Content"
+    },
+    {
+      "technique_id": "T1683.001",
+      "technique_name": "Written Content",
+      "platforms": [
+        "PRE"
+      ],
+      "autosuggest": "T1683.001 - Written Content"
+    },
+    {
+      "technique_id": "T1683.002",
+      "technique_name": "Audio-Visual Content",
+      "platforms": [
+        "PRE"
+      ],
+      "autosuggest": "T1683.002 - Audio-Visual Content"
+    },
+    {
+      "technique_id": "T1684",
+      "technique_name": "Social Engineering",
+      "platforms": [
+        "Linux",
+        "Office Suite",
+        "SaaS",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1684 - Social Engineering"
+    },
+    {
+      "technique_id": "T1684.001",
+      "technique_name": "Impersonation",
+      "platforms": [
+        "Linux",
+        "Office Suite",
+        "SaaS",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1684.001 - Impersonation"
+    },
+    {
+      "technique_id": "T1684.002",
+      "technique_name": "Email Spoofing",
+      "platforms": [
+        "Linux",
+        "Office Suite",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1684.002 - Email Spoofing"
+    },
+    {
+      "technique_id": "T1685",
+      "technique_name": "Disable or Modify Tools",
+      "platforms": [
+        "Containers",
+        "ESXi",
+        "IaaS",
+        "Linux",
+        "Network Devices",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1685 - Disable or Modify Tools"
+    },
+    {
+      "technique_id": "T1685.001",
+      "technique_name": "Disable or Modify Windows Event Log",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "T1685.001 - Disable or Modify Windows Event Log"
+    },
+    {
+      "technique_id": "T1685.002",
+      "technique_name": "Disable or Modify Cloud Log",
+      "platforms": [
+        "IaaS",
+        "Identity Provider",
+        "Office Suite",
+        "SaaS"
+      ],
+      "autosuggest": "T1685.002 - Disable or Modify Cloud Log"
+    },
+    {
+      "technique_id": "T1685.003",
+      "technique_name": "Modify or Spoof Tool UI",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1685.003 - Modify or Spoof Tool UI"
+    },
+    {
+      "technique_id": "T1685.004",
+      "technique_name": "Disable or Modify Linux Audit System Log",
+      "platforms": [
+        "Linux"
+      ],
+      "autosuggest": "T1685.004 - Disable or Modify Linux Audit System Log"
+    },
+    {
+      "technique_id": "T1685.005",
+      "technique_name": "Clear Windows Event Logs",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "T1685.005 - Clear Windows Event Logs"
+    },
+    {
+      "technique_id": "T1685.006",
+      "technique_name": "Clear Linux or Mac System Logs",
+      "platforms": [
+        "Linux",
+        "macOS"
+      ],
+      "autosuggest": "T1685.006 - Clear Linux or Mac System Logs"
+    },
+    {
+      "technique_id": "T1686",
+      "technique_name": "Disable or Modify System Firewall",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "Network Devices",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1686 - Disable or Modify System Firewall"
+    },
+    {
+      "technique_id": "T1686.001",
+      "technique_name": "Cloud Firewall",
+      "platforms": [
+        "IaaS"
+      ],
+      "autosuggest": "T1686.001 - Cloud Firewall"
+    },
+    {
+      "technique_id": "T1686.002",
+      "technique_name": "Network Device Firewall",
+      "platforms": [
+        "Network Devices"
+      ],
+      "autosuggest": "T1686.002 - Network Device Firewall"
+    },
+    {
+      "technique_id": "T1686.003",
+      "technique_name": "Windows Host Firewall",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "T1686.003 - Windows Host Firewall"
+    },
+    {
+      "technique_id": "T1687",
+      "technique_name": "Exploitation for Defense Impairment",
+      "platforms": [
+        "IaaS",
+        "Linux",
+        "SaaS",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1687 - Exploitation for Defense Impairment"
+    },
+    {
+      "technique_id": "T1688",
+      "technique_name": "Safe Mode Boot",
+      "platforms": [
+        "Windows"
+      ],
+      "autosuggest": "T1688 - Safe Mode Boot"
+    },
+    {
+      "technique_id": "T1689",
+      "technique_name": "Downgrade Attack",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1689 - Downgrade Attack"
+    },
+    {
+      "technique_id": "T1690",
+      "technique_name": "Prevent Command History Logging",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "Network Devices",
+        "Windows",
+        "macOS"
+      ],
+      "autosuggest": "T1690 - Prevent Command History Logging"
     }
   ],
   "ATT&CK-ICS": [
@@ -6699,30 +6750,6 @@
         "None"
       ],
       "autosuggest": "T0802 - Automated Collection"
-    },
-    {
-      "technique_id": "T0803",
-      "technique_name": "Block Command Message",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0803 - Block Command Message"
-    },
-    {
-      "technique_id": "T0804",
-      "technique_name": "Block Reporting Message",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0804 - Block Reporting Message"
-    },
-    {
-      "technique_id": "T0805",
-      "technique_name": "Block Serial COM",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0805 - Block Serial COM"
     },
     {
       "technique_id": "T0806",
@@ -6755,14 +6782,6 @@
         "None"
       ],
       "autosuggest": "T0811 - Data from Information Repositories"
-    },
-    {
-      "technique_id": "T0812",
-      "technique_name": "Default Credentials",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0812 - Default Credentials"
     },
     {
       "technique_id": "T0813",
@@ -6941,14 +6960,6 @@
       "autosuggest": "T0838 - Modify Alarm Settings"
     },
     {
-      "technique_id": "T0839",
-      "technique_name": "Module Firmware",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0839 - Module Firmware"
-    },
-    {
       "technique_id": "T0840",
       "technique_name": "Network Connection Enumeration",
       "platforms": [
@@ -6973,6 +6984,30 @@
       "autosuggest": "T0843 - Program Download"
     },
     {
+      "technique_id": "T0843.001",
+      "technique_name": "Download All",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T0843.001 - Download All"
+    },
+    {
+      "technique_id": "T0843.002",
+      "technique_name": "Online Edit",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T0843.002 - Online Edit"
+    },
+    {
+      "technique_id": "T0843.003",
+      "technique_name": "Program Append",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T0843.003 - Program Append"
+    },
+    {
       "technique_id": "T0845",
       "technique_name": "Program Upload",
       "platforms": [
@@ -6987,6 +7022,30 @@
         "None"
       ],
       "autosuggest": "T0846 - Remote System Discovery"
+    },
+    {
+      "technique_id": "T0846.001",
+      "technique_name": "Port Scan",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T0846.001 - Port Scan"
+    },
+    {
+      "technique_id": "T0846.002",
+      "technique_name": "Broadcast Discovery",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T0846.002 - Broadcast Discovery"
+    },
+    {
+      "technique_id": "T0846.003",
+      "technique_name": "Multicast Discovery",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T0846.003 - Multicast Discovery"
     },
     {
       "technique_id": "T0847",
@@ -7035,30 +7094,6 @@
         "None"
       ],
       "autosuggest": "T0853 - Scripting"
-    },
-    {
-      "technique_id": "T0855",
-      "technique_name": "Unauthorized Command Message",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0855 - Unauthorized Command Message"
-    },
-    {
-      "technique_id": "T0856",
-      "technique_name": "Spoof Reporting Message",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0856 - Spoof Reporting Message"
-    },
-    {
-      "technique_id": "T0857",
-      "technique_name": "System Firmware",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0857 - System Firmware"
     },
     {
       "technique_id": "T0858",
@@ -7181,6 +7216,14 @@
       "autosuggest": "T0873 - Project File Infection"
     },
     {
+      "technique_id": "T0873.001",
+      "technique_name": "Siemens Project File Format",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T0873.001 - Siemens Project File Format"
+    },
+    {
       "technique_id": "T0874",
       "technique_name": "Hooking",
       "platforms": [
@@ -7301,14 +7344,6 @@
       "autosuggest": "T0890 - Exploitation for Privilege Escalation"
     },
     {
-      "technique_id": "T0891",
-      "technique_name": "Hardcoded Credentials",
-      "platforms": [
-        "None"
-      ],
-      "autosuggest": "T0891 - Hardcoded Credentials"
-    },
-    {
       "technique_id": "T0892",
       "technique_name": "Change Credential",
       "platforms": [
@@ -7339,6 +7374,134 @@
         "None"
       ],
       "autosuggest": "T0895 - Autorun Image"
+    },
+    {
+      "technique_id": "T1691",
+      "technique_name": "Block Operational Technology Message",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1691 - Block Operational Technology Message"
+    },
+    {
+      "technique_id": "T1691.001",
+      "technique_name": "Command Message",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1691.001 - Command Message"
+    },
+    {
+      "technique_id": "T1691.002",
+      "technique_name": "Reporting Message",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1691.002 - Reporting Message"
+    },
+    {
+      "technique_id": "T1692",
+      "technique_name": "Unauthorized Message",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1692 - Unauthorized Message"
+    },
+    {
+      "technique_id": "T1692.001",
+      "technique_name": "Command Message",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1692.001 - Command Message"
+    },
+    {
+      "technique_id": "T1692.002",
+      "technique_name": "Reporting Message",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1692.002 - Reporting Message"
+    },
+    {
+      "technique_id": "T1693",
+      "technique_name": "Modify Firmware",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1693 - Modify Firmware"
+    },
+    {
+      "technique_id": "T1693.001",
+      "technique_name": "System Firmware",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1693.001 - System Firmware"
+    },
+    {
+      "technique_id": "T1693.002",
+      "technique_name": "Module Firmware",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1693.002 - Module Firmware"
+    },
+    {
+      "technique_id": "T1694",
+      "technique_name": "Insecure Credentials",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1694 - Insecure Credentials"
+    },
+    {
+      "technique_id": "T1694.001",
+      "technique_name": "Default Credentials",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1694.001 - Default Credentials"
+    },
+    {
+      "technique_id": "T1694.002",
+      "technique_name": "Hardcoded Credentials",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1694.002 - Hardcoded Credentials"
+    },
+    {
+      "technique_id": "T1695",
+      "technique_name": "Block Communications",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1695 - Block Communications"
+    },
+    {
+      "technique_id": "T1695.001",
+      "technique_name": "Serial COM",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1695.001 - Serial COM"
+    },
+    {
+      "technique_id": "T1695.002",
+      "technique_name": "Ethernet",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1695.002 - Ethernet"
+    },
+    {
+      "technique_id": "T1695.003",
+      "technique_name": "Wi-Fi",
+      "platforms": [
+        "None"
+      ],
+      "autosuggest": "T1695.003 - Wi-Fi"
     }
   ],
   "ATT&CK-Mobile": [
